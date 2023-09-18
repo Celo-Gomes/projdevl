@@ -23,6 +23,7 @@
 }
 body{
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 }
 body *{
     font-family: 'Inter', sans-serif;
@@ -121,4 +122,13 @@ ul li a:hover{
 footer{
     text-align: center;
     font-size: 12px;
+}
+
+@media( min-width: 700px){
+    :root {
+        --bg-url: url(./assets/bg-desktop.jpg);
+    }
+    .class{
+        --bg-url: url(.assets/bg-desktop-light.jpg);
+    }
 }
