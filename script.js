@@ -12,7 +12,7 @@ button.onclick=()=>{
     html.classList.toggle('light')
 
     if(html.classList.contains('light')){
-        photo.setAttribute('src', './assets/avatar-light-glass.png')
+        photo.setAttribute('src', './assets/avatar-light.png')
         //photo.src = './assets/avatar-light-glass.png'
     } else{
         photo.setAttribute('src', './assets/avatar.png')
