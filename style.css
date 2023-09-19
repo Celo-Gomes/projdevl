@@ -24,7 +24,6 @@
 body{
     background: var(--bg-url) no-repeat top center/cover;
     height: 100vh;
-    margin-top: -50px;
 }
 body *{
     font-family: 'Inter', sans-serif;
@@ -33,7 +32,7 @@ body *{
 #container{
     width: 100%;
     max-width: 588px;
-    margin: 54px auto 0px;
+    margin: 4px auto 0px;
     padding: 0 24px;
 }
 #profile{
